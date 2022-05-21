@@ -1,0 +1,28 @@
+.budget {
+    padding: 1rem;
+    background-color: lightblue;
+    text-align: left;
+}
+
+.budget table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+thead{
+    background-color: skyblue;
+    color: black;
+}
+
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr{
+    border:  1px solid #dddddd;;
+}

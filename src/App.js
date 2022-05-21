@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import Budgets from "./components/Budgets/Budgets";
+import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
+  const budgetList = [
+    {
+      id: "b1",
+      name: "test budget",
+      description: "test description",
+      type: "DBU",
+      period: "MONTHLY",
+      start: "March 2022",
+      end: "Jun 2022",
+      scope: "Global",
+      status: "status",
+    },
+    {
+      id: "b1",
+      name: "test budget",
+      description: "test description",
+      type: "DBU",
+      period: "MONTHLY",
+      start: "March 2022",
+      end: "Jun 2022",
+      scope: "Global",
+      status: "status",
+    },
+    {
+      id: "b1",
+      name: "test budget",
+      description: "test description",
+      type: "DBU",
+      period: "MONTHLY",
+      start: "March 2022",
+      end: "Jun 2022",
+      scope: "Global",
+      status: "status",
+    },
+  ];
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Budgets items={budgetList}></Budgets>
     </div>
   );
 }

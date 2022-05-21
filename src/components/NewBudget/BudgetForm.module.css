@@ -1,0 +1,44 @@
+.new-budget__controls {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    text-align: left;
+    padding: 0 5%;
+  }
+
+  .new-budget__control{
+    margin-bottom: 1rem;
+  }
+
+  .new-budget__control h2{
+    text-align: center;
+  }
+  
+  .new-budget__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-budget__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .new-budget__control textarea {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .new-budget__actions {
+    text-align: right;
+  }

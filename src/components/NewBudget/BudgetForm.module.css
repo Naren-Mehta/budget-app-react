@@ -1,5 +1,4 @@
 .new-budget__controls {
-    /* display: flex; */
     flex-wrap: wrap;
     gap: 1rem;
     margin: 1rem;
@@ -9,6 +8,12 @@
 
   .new-budget__control{
     margin-bottom: 1rem;
+  }
+
+  .new-budget__control .error {
+    /* font-weight: bold; */
+    color: red;
+    /* display: block; */
   }
 
   .new-budget__control h2{

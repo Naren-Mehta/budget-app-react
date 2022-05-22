@@ -1,0 +1,9 @@
+.editBudget{
+    color: green;
+    margin: 0 .5rem;
+}
+
+.deleteBudget{
+    color: red;
+    margin: 0 .5rem;
+}

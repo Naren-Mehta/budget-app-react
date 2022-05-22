@@ -5,7 +5,11 @@ const NewBudget = (props) => {
   return (
     <Modal onClose={props.onClose}>
       <div className={classes.newBudget}>
-        <BudgetForm />
+        <BudgetForm
+          onSaveBudgetData={props.onSaveBudgetData}
+          onClose={props.onClose}
+          currentBudget={props.currentBudget}
+        />
       </div>
     </Modal>
   );
